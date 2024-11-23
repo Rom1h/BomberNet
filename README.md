@@ -4,7 +4,7 @@
 ## **Présentation**
 **BomberNet** est un projet universitaire implémenté en **C**, inspiré du célèbre jeu Bomberman. Ce projet permet à plusieurs joueurs de s’affronter via une communication client-serveur en réseau. Le jeu propose un mode solo et un mode équipe, avec des contrôles simples et une mécanique intuitive.
 
-Ce projet met en œuvre des concepts de **programmation réseau** pour gérer les interactions en temps réel entre les joueurs et le serveur.
+Le jeu met en œuvre des concepts avancés de **programmation réseau**, de **programmation concurrente**, et de gestion des interactions en temps réel.
 
 ---
 
@@ -13,7 +13,7 @@ Ce projet met en œuvre des concepts de **programmation réseau** pour gérer le
 - **Communication réseau :** Utilisation des sockets pour les échanges entre client et serveur.
 - **Commandes intuitives :** Contrôlez votre joueur avec des touches claviers simples.
 - **Chat intégré :** Communiquez en direct avec les autres joueurs.
-
+- **Gestion concurrente :** Support pour plusieurs joueurs connectés simultanément.
 ---
 
 ## **Compilation**
@@ -58,11 +58,13 @@ Pendant une partie, utilisez les touches suivantes :
 - **Langage** : C
 - **Réseau** : Sockets TCP/UDP pour la communication.
 - **Protocole :** Gestion des données entre clients et serveur.
+- **Concurrent :** Gestion des threads pour les connexions multiples.
 - **Système d’exploitation** : Développé et testé sous Linux.
 
 ---
 
 ## **Apprentissage et Réalisations**
 - Maîtrise de l’implémentation de sockets réseau en C.
+- Programmation concurrente et gestion des threads.
 - Développement d’un protocole de communication pour un jeu multijoueur.
 - Gestion des interactions joueur-serveur en temps réel.
